@@ -4,13 +4,13 @@ window.ThoughtFreePix = {
   Views: {},
   Routers: {},
   initialize: function() {
-    ThoughtFreePix.Collections.heros.fetch();
-
-    var view = new ThoughtFreePix.Views.HerosIndex({
-      collection: ThoughtFreePix.Collections.heros
+    // sets up routes
+    new ThoughtFreePix.Routers.AppRouter({
+      //pass in div name
+      $heroList: $("#categories")
     });
-
-    $("body").append(view.render().$el);
+    // starts listening to changes to the location (url)
+    Backbone.history.start();
   }
 };
 

@@ -5,7 +5,9 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
   //   this.collection = options.collection;
   // },
   events: {
-    "click button#refresh": "refresh"
+    "click button#refresh": "refresh",
+    "click button#abathur": "abathur",
+    "click a": "test"
   },
 
   initialize: function (option) {
@@ -19,6 +21,14 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
       //view is already in body, no need to append again
       success: function () { view.render(); }
     });
+  },
+
+  abathur: function () {
+    alert("PJ PARTY");
+  },
+
+  test: function () {
+    console.log("working");
   },
 
   render: function () {
