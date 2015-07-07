@@ -20,4 +20,13 @@ class Api::HerosController < ApplicationController
     render :json => @hero
   end
 
+  def update
+    @hero = Hero.find(params[:id])
+    if @hero.update_attributes(params[:hero])
+      render :json => @hero
+    else
+      render :json => @hero.errors, :status => :unprocessable_entity
+    end
+  end
+
 end

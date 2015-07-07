@@ -1,0 +1,8 @@
+<h3>Heros Index Test</h3>
+<ul>
+  <% heros.each(function (hero) { %>
+    <li><%= hero.escape("name") %></li>
+  <% }) %>
+</ul>
+
+<button id="refresh">Refresh</button>
