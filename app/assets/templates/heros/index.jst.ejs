@@ -4,7 +4,8 @@
 <ul>
   <% heros.each(function (hero) { %>
     <li>
-      <a href="#/heros/<%= hero.id %>"><%= hero.escape("name") %></a>
+      <img class="heroImage" src="https://d1i1jxrdh2kvwy.cloudfront.net/Images/Heroes/Portraits/Murky.png"></img>
+      <% $("li").data("model", hero); %>
     </li>
   <% }) %>
 </ul>

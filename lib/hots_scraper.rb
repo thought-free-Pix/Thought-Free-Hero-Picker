@@ -18,6 +18,7 @@ class HotsScraper
     hero_list = doc2.css('tbody')
     hero_list.children.each do |tr|
       if tr.css('td')[1].text == hero
+        my_data[:pick_count] = tr.css('td')[2].text
         my_data[:overall_win] = tr.css('td')[4].text
         break
       end

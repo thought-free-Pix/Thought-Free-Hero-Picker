@@ -14,6 +14,7 @@ namespace :scrape do
         options[:role_id] = 4
         options[:overall_win] = hero_data[:overall_win]
         options[:matchups] = hero_data[:matchups]
+        options[:pick_count] = hero_data[:pick_count]
         new_hero.update_attributes(options)
       else
         new_hero = Hero.new
@@ -21,6 +22,7 @@ namespace :scrape do
         new_hero.role_id = 4
         new_hero.overall_win = hero_data[:overall_win] if hero_data[:overall_win]
         new_hero.matchups = hero_data[:matchups] if hero_data[:matchups]
+        new_hero.pick_count = hero_data[:pick_count] if hero_data[:pick_count]
         new_hero.save
       end
     end

@@ -7,7 +7,7 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
   events: {
     "click button#refresh": "refresh",
     "click button#abathur": "abathur",
-    "click a": "test"
+    "click img.heroImage": "test"
   },
 
   initialize: function (option) {
@@ -27,8 +27,12 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
     alert("PJ PARTY");
   },
 
-  test: function () {
+  test: function (event) {
     console.log("working");
+    debugger
+    //look at how tracks are added to queue and
+    //do same with image to enemy/ally team
+    // ThoughtFreePix.router.addToTeam(this.model);
   },
 
   render: function () {
