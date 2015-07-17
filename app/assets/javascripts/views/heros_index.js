@@ -1,5 +1,6 @@
 window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
-  template: JST['heros/index'],
+  // template: JST['heros/index'],
+  template: "<div class='indexContainer'></div>",
 
   // initialize: function (options) {
   //   this.collection = options.collection;
@@ -12,6 +13,7 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
 
   initialize: function (option) {
       this.listenTo(this.collection, "sync add", this.render);
+      this.reactRoot = React.createElement(HeroIndex, {heros: this.collection.models});
   },
 
   refresh: function () {
@@ -36,12 +38,14 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
   },
 
   render: function () {
-    var renderedContent = this.template({
-      heros: this.collection
-    });
+    // var renderedContent = this.template({
+    //   heros: this.collection
+    // });
+
+    var renderedContent = this.template;
 
     this.$el.html(renderedContent);
-
+    React.render(this.reactRoot, this.$('.indexContainer').get(0));
     return this;
   }
 });

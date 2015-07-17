@@ -1,6 +1,6 @@
 window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
 
-  template: JST['selected/index'],
+  template: "<div class='butt'></div>",
 
   initialize: function (option) {
     // this.listenTo(this.collection, "sync add", this.render);
@@ -40,10 +40,11 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
   },
 
   render: function () {
-    var view = this;
-    var renderedContent = this.template({
-      // hero: this.model
-    });
+    // var view = this;
+    // var renderedContent = this.template({
+    //   // hero: this.model
+    // });
+    var renderedContent = this.template;
 
     this.$el.html(renderedContent);
     this.attachSubviews();
@@ -55,6 +56,8 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
     //   // this.$(".selectedHeros").append(heroShowView.render().$el);
     // });
 
+    // var test = new Hello({});
+    React.render(React.createElement(Hello, {}), this.$('.butt').get(0));
     return this;
   },
 

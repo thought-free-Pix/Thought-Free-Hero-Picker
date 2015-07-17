@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require react
+//= require react_ujs
+//= require components
 //= require underscore
 //= require backbone
 //= require thought_free_pix
