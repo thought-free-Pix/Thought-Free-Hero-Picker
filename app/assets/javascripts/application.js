@@ -16,12 +16,5 @@
 //= require react
 //= require react_ujs
 //= require components
-//= require underscore
-//= require backbone
-//= require thought_free_pix
-//= require_tree ../templates
-//= require_tree ./models
-//= require_tree ./collections
-//= require_tree ./views
-//= require_tree ./routers
+//= require app
 //= require_tree .
