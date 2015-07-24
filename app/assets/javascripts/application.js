@@ -16,5 +16,12 @@
 //= require react
 //= require react_ujs
 //= require components
+//= require flux
+//= require_tree ./utils
+//= require eventemitter
+//= require_tree ./actions
+//= require_tree ./constants
+//= require_tree ./dispatcher
+//= require_tree ./stores
 //= require app
 //= require_tree .
