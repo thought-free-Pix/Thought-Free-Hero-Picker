@@ -6,24 +6,24 @@ window.ThoughtFreePix.Views.HerosIndex = Backbone.View.extend({
   //   this.collection = options.collection;
   // },
   events: {
-    "click button#refresh": "refresh",
+    // "click button#refresh": "refresh",
     "click button#abathur": "abathur",
     "click img.heroImage": "test"
   },
 
   initialize: function (option) {
-      this.listenTo(this.collection, "sync add", this.render);
-      this.reactRoot = React.createElement(HeroIndex, {heros: this.collection.models});
+      // this.listenTo(this.collection, "sync add", this.render);
+      this.reactRoot = React.createElement(HeroIndex, {heros: this.collection});
   },
 
-  refresh: function () {
-    var view = this;
-
-    this.collection.fetch({
-      //view is already in body, no need to append again
-      success: function () { view.render(); }
-    });
-  },
+  // refresh: function () {
+  //   var view = this;
+  //
+  //   this.collection.fetch({
+  //     //view is already in body, no need to append again
+  //     success: function () { view.render(); }
+  //   });
+  // },
 
   abathur: function () {
     alert("PJ PARTY");

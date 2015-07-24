@@ -5,10 +5,12 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
   initialize: function (option) {
     // this.listenTo(this.collection, "sync add", this.render);
     this.collection.getOrFetch(1);
+    this.reactRoot = React.createElement(Hello, {collection: this.collection});
     // this.collection.getOrFetch(5);
-    this.listenTo(this.collection, "add", this.addHero);
-    this.listenTo(this.collection, "remove", this.removeHero);
-    this.listenTo(this.collection, "sync", this.render);
+    // this.listenTo(this.collection, "add", this.addHero);
+    // this.listenTo(this.collection, "remove", this.removeHero);
+    // this.render();
+    // this.listenTo(this.collection, "sync", this.render);
 
     this.collection.each(function(hero){
       var heroShowView =
@@ -19,6 +21,10 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
       // this.$(".selectedHeros").append(heroShowView.render().$el);
     });
   },
+
+  // updateReact: function () {
+  //   this.reactRoot.forceUpdate();
+  // },
 
   addHero: function (hero) {
     //adds latest hero to the subview and renders it
@@ -47,7 +53,7 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
     var renderedContent = this.template;
 
     this.$el.html(renderedContent);
-    this.attachSubviews();
+    // this.attachSubviews();
     // this.collection.each(function(hero){
     //   var heroShowView =
     //     new ThoughtFreePix.Views.HerosShow({ model: hero });
@@ -57,7 +63,8 @@ window.ThoughtFreePix.Views.SelectedIndex = Backbone.CompositeView.extend({
     // });
 
     // var test = new Hello({});
-    React.render(React.createElement(Hello, {}), this.$('.butt').get(0));
+    // console.log(React.unmountComponentAtNode(this.$('.butt').get(0)));
+    React.render(this.reactRoot, this.$('.butt').get(0));
     return this;
   },
 
