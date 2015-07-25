@@ -1,0 +1,71 @@
+.allyContainer {
+  float:left;
+  height: 500px;
+  width: 200px;
+  background-color: transparent;
+  display: inline-block;
+  color: white;
+  text-align: center;
+}
+
+.enemyContainer {
+  float:right;
+  height: 500px;
+  width: 200px;
+  background-color: transparent;
+  display: inline-block;
+  color: white;
+}
+
+.teamContainer {
+    // height: 300px;
+    width: 200px;
+    list-style: none;
+    overflow: visible;
+}
+
+.SuggestionBox {
+  width: 50%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  color: white;
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  div {
+    min-width: 110px;
+  }
+}
+
+.currentSelectionContainer {
+  position: absolute;
+  left: 40em;
+  top: 6em;
+  background-color: transparent;
+  color:white;
+  z-index: 10;
+
+  button {
+    color: black;
+  }
+}
+
+.teamContainer li {
+  list-style: none;
+}
+
+.teamContainer li div img {
+  height: 75px;
+  width: 75px;
+}
+
+
+.teamWrapper {
+  // width: 100%;
+  background-color: gray;
+}

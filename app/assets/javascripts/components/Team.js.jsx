@@ -1,4 +1,4 @@
-var AlliedTeam = React.createClass({
+var Team = React.createClass({
 
   clickHandler: function(hero){
     this.props.team.Remove(hero);
