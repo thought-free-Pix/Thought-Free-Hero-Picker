@@ -34,6 +34,7 @@ var SuggestionBox = React.createClass({
           <li key = {i}>
             <div className="SuggestionBoxEntry" onClick = { that.clickHandler.bind(that, heroname) }>
               <HeroBox hero={heroname} />
+              <p>{i+1}</p>
             </div>
           </li>
         )

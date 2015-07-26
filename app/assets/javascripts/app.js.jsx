@@ -36,9 +36,10 @@ var App = React.createClass({
       <div className="pageWrapper">
 
         <NavigationBar />
-          <div className="SuggestionBox">
+        <div className="SuggestionBox">
+          <h3> Recommendations </h3>
           <SuggestionBox />
-          </div>
+        </div>
 
         <div className="teamWrapper">
           <div className="allyContainer teamContainer">
