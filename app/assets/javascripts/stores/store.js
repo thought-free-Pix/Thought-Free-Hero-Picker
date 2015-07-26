@@ -18,13 +18,15 @@ _heroArray = dataset;
 
 /* ======= Store data initialization ======= */
 
-(function _updateFromServer(){
+function _updateFromServer(){
   $.get('/api/heros', (
     function(response){
       _heroArray = response;
+      // Signal listeners that store has been updated.
+      AppStore.emitChange();
     }
   ));
-}());
+};
 
 // Immediately invoked function for populating hero data offline
 (function _populateDefaultHeroes(){
@@ -155,7 +157,7 @@ var AppStore = assign(EventEmitter.prototype, {
 
   getSuggestions: function(){
     _updateScores(_heroArray);
-    var output = _generateSuggestions(_heroArray).filter(_alreadySelected);
+    var output = _generateSuggestions(_heroArray).filter(_alreadySelected).filter(_checkRole);
     return output;
   },
 
@@ -186,3 +188,6 @@ var AppStore = assign(EventEmitter.prototype, {
     return true;
   })
 });
+
+
+_updateFromServer();
