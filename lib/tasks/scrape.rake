@@ -2,7 +2,7 @@ require "./lib/hots_scraper.rb"
 namespace :scrape do
   desc "Run scraper"
   task :scrape => :environment do
-    heroes_array = ["Abathur", "Anub\'arak", "Arthas", "Azmodan", "Brightwing", "Chen", "Diablo", "E.T.C.", "Falstad", "Gazlowe", "Illidan", "Jaina", "Johanna", "Kael\'thas", "Kerrigan", "Li Li", "Malfurion", "Muradin", "Murky", "Nazeebo", "Nova", "Raynor", "Rehgar", "Sgt. Hammer", "Sonya", "Stitches", "Sylvanas", "Tassadar", "The Butcher", "The Lost Vikings", "Thrall", "Tychus", "Tyrande", "Tyrael", "Uther", "Valla", "Zagara", "Zeratul" ]
+    heroes_array = ["Abathur", "Anub\'arak", "Arthas", "Azmodan", "Brightwing", "Chen", "Diablo", "E.T.C.", "Falstad", "Gazlowe", "Illidan", "Jaina", "Johanna", "Kael\'thas", "Kerrigan", "Leoric", "Li Li", "Malfurion", "Muradin", "Murky", "Nazeebo", "Nova", "Raynor", "Rehgar", "Sgt. Hammer", "Sonya", "Stitches", "Sylvanas", "Tassadar", "The Butcher", "The Lost Vikings", "Thrall", "Tychus", "Tyrande", "Tyrael", "Uther", "Valla", "Zagara", "Zeratul" ]
     # heroes_array = ["Abathur", "Anub\'arak"]
     scraper = HotsScraper.new
 
