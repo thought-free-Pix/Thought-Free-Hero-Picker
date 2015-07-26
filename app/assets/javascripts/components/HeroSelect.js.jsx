@@ -37,13 +37,11 @@ var HeroSelect = React.createClass({
     var that = this;
     var heroes = this.props.HeroList.map(function(hero, i){
       return (
-        <span key = {i}>
-        <li>
+        <li key = {i}>
           <div onClick={ that.clickHandler.bind(that, hero)} >
             <HeroBox hero={hero.name} />
           </div>
         </li>
-        </span>
       )
     })
 
