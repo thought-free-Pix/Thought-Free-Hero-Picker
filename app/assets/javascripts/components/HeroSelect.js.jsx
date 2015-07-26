@@ -1,14 +1,11 @@
 
 
 
-function Handler(hero){
-  AppActions.addAllied(hero);
-}
-
 var HeroSelect = React.createClass({
   clickHandler: function(hero){
     this.setState({currentSelection: hero.name});
   },
+
   toAlly: function(){
     if(this.state.currentSelection !== "None"){
       AppActions.addAllied(this.state.currentSelection);
@@ -16,6 +13,7 @@ var HeroSelect = React.createClass({
       console.log('Select a hero first!');
     }
   },
+
   toEnemy: function(){
     if(this.state.currentSelection !== "None"){
       AppActions.addEnemy(this.state.currentSelection);
@@ -29,10 +27,10 @@ var HeroSelect = React.createClass({
       currentSelection: 'None'
     };
   },
+
   componentWillMount: function( ) {
-    // console.log('props for select', this.props.HeroList);
-    // AppActions.loadHeroes();
   },
+
   render: function() {
     var that = this;
     var heroes = this.props.HeroList.map(function(hero, i){
@@ -44,7 +42,6 @@ var HeroSelect = React.createClass({
         </li>
       )
     })
-
 
     return (
       <div className="selectionWrapper">

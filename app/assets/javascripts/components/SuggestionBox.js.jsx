@@ -1,6 +1,5 @@
 
 function calcWin(){
-  console.log(AppStore.getSuggestions());
   return {
     suggestions: AppStore.getSuggestions()
   }
@@ -11,9 +10,9 @@ var SuggestionBox = React.createClass({
     return calcWin();
   },
 
-  // clickHandler: function(hero){
-  //   AppActions.removeAllied(hero);
-  // },
+  clickHandler: function(hero){
+    AppActions.addAllied(hero);
+  },
 
   componentWillMount: function(){
     AppStore.addChangeListener(this._onChange);
@@ -28,10 +27,12 @@ var SuggestionBox = React.createClass({
 
   render: function(){
     var cutSuggestions = this.state.suggestions.slice(0,5);
+    var that = this;
+
     var suggestionList = cutSuggestions.map(function(heroname, i){
         return (
           <li key = {i}>
-            <div className="SuggestionBoxEntry">
+            <div className="SuggestionBoxEntry" onClick = { that.clickHandler.bind(that, heroname) }>
               <HeroBox hero={heroname} />
             </div>
           </li>
