@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', arial, sans-serif;
+  color: white;
   background-image: image-url('hots_bg.jpg');
 }
 
@@ -42,14 +43,14 @@ body{
   text-align:center;
   color:#fff;
   overflow:hidden;
-  transform: skewY(-30deg) rotate(60deg);    
+  transform: skewY(-30deg) rotate(60deg);
 }
 
 /* HEX CONTENT */
 #categories li img{
   left:-100%; right:-100%; top: -2%;
   width: auto; height:105%;
-  margin:0 auto;   
+  margin:0 auto;
 }
 
 // /* HOVER EFFECT  */
@@ -188,4 +189,3 @@ body{
 //     margin-left:1%;
 //   }
 // }
-
