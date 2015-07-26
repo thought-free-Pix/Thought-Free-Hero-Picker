@@ -29,6 +29,7 @@ roles_hash = {
   "Johanna" => 2,
   "Kael\'thas" => 1,
   "Kerrigan" => 1,
+  "Leoric" => 2,
   "Li Li" => 3,
   "Malfurion" => 3,
   "Muradin" => 2,

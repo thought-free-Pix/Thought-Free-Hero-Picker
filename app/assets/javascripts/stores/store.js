@@ -84,7 +84,8 @@ function _alreadySelected(hero){
 };
 
 //Checks if too many tanks/healers have already been drafted
-function _checkRole(hero){
+function _checkRole(heroName){
+  var hero = _heroData[heroName];
   //This object could become a property on teams
   var composition = {
     1: 0,
@@ -93,9 +94,9 @@ function _checkRole(hero){
     4: 0
   };
   for(var i = 0; i < _alliedTeam.length; i++){
-    composition[_alliedTeam[i].role]++;
+    composition[_heroData[_alliedTeam[i]].role_id]++;
   }
-  if((hero.role === 1 || hero.role === 2) && composition[hero.role] > 2 ){
+  if((hero.role_id !== 1 ) && composition[hero.role_id] > 1 ){
     return false;
   } else {
     return true;
