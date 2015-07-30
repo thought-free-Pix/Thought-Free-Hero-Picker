@@ -33,6 +33,7 @@ var HeroSelect = React.createClass({
 
   render: function() {
     var that = this;
+    var imgPath = PathObject[this.state.currentSelection];
     var heroes = this.props.HeroList.map(function(hero, i){
       return (
         <li key = {i}>
@@ -46,9 +47,12 @@ var HeroSelect = React.createClass({
     return (
       <div className="selectionWrapper">
         <div className="currentSelectionContainer">
+          <div className="heroNameSelection">
+            { this.state.currentSelection }
+          </div>
           <button onClick={ this.toAlly }>Ally</button>
+          <img src={imgPath}/>
           <button onClick={ this.toEnemy }>Enemy</button>
-          <div>{ this.state.currentSelection }</div>
         </div>
 
         <ul id="categories" className="clr">
