@@ -15,13 +15,14 @@
 //= require turbolinks
 //= require react
 //= require react_ujs
-//= require components
 //= require flux
+//= require d3
 //= require_tree ./utils
 //= require eventemitter
 //= require_tree ./actions
 //= require_tree ./constants
 //= require_tree ./dispatcher
 //= require_tree ./stores
+//= require components
 //= require app
 //= require_tree .
