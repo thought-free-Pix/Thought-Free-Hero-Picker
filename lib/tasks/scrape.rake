@@ -9,11 +9,11 @@ namespace :scrape do
       hero_data = scraper.go_scraper_go(hero)
       if Hero.find_by_name(hero)
         new_hero = Hero.find_by_name(hero)
-        options = {:role_id => hero.role_id, :overall_win => hero_data[:overall_win],
+        options = {:role_id => new_hero.role_id, :overall_win => hero_data[:overall_win],
                       :matchups => hero_data[:matchups], :pick_count => hero_data[:pick_count]}
         new_hero.update_attributes(options)
       else
-        new_hero = Hero.new(name: hero, role_id: role_id: 4)
+        new_hero = Hero.new(name: hero, role_id: 4)
         new_hero.name = hero
         new_hero.role_id = 4
         new_hero.overall_win = hero_data[:overall_win] if hero_data[:overall_win]
