@@ -52,6 +52,8 @@ var App = React.createClass({
           </div>
         </div>
 
+        <StatBox />
+        
         <div>
           <HeroSelect HeroList = {this.state.HeroList} />
         </div>
