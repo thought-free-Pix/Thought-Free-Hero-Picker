@@ -4,7 +4,7 @@
 var RadarChart = {
   draw: function(id, d, legendData, options){
   var cfg = {
-   radius: 5,
+   radius: 3,
    w: 300,
    h: 300,
    factor: 1,
@@ -14,10 +14,10 @@ var RadarChart = {
    radians: 2 * Math.PI,
    opacityArea: 0.5,
    ToRight: 5,
-   TranslateX: 50,
-   TranslateY: 30,
+   TranslateX: 75,
+   TranslateY: 75,
    ExtraWidthX: 300,
-   ExtraWidthY: 100,
+   ExtraWidthY: 110,
    color: d3.scale.category10(),
    LegendOptions: legendData
   };
@@ -230,25 +230,33 @@ var RadarChart = {
   var svg = d3.select(id)
     .selectAll('svg')
     .append('svg')
-    .attr("width", cfg.w+300)
+    .attr("width", cfg.w + 300)
     .attr("height", cfg.h)
+
+    svg.append("rect")
+    .attr("x", 1)
+    .attr("y", 1)
+    .attr("width", 115)
+    .attr("height", 130)
+    .attr("style", "outline: thin solid white;")
+    .style("fill", "transparent")
 
   //Create the title for the legend
   var text = svg.append("text")
     .attr("class", "title")
-    .attr('transform', 'translate(90,0)') 
+    .attr('transform', 'translate(-195,10)') 
     .attr("x", cfg.w - 70)
     .attr("y", 10)
     .attr("font-size", "12px")
     .attr("fill", "#ffffff")
-    .text("Each heroes team contribution");
+    .text("Legend");
       
   //Initiate Legend 
   var legend = svg.append("g")
     .attr("class", "legend")
     .attr("height", 100)
     .attr("width", 200)
-    .attr('transform', 'translate(90,20)') 
+    .attr('transform', 'translate(-220,30)') 
     ;
   //Create colour squares, adding 1 due to default team seed value
   legend.selectAll('rect')
@@ -271,6 +279,8 @@ var RadarChart = {
     .attr("font-size", "11px")
     .attr("fill", "#ffffff")
     .text(function(d) { return d; }); 
+
+
 
   }
 };
