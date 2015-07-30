@@ -35,6 +35,7 @@ gem 'backbone-on-rails'
 gem 'react-rails', '~>1.0'
 gem 'flux-rails-assets'
 gem 'figaro'
+gem 'd3-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
