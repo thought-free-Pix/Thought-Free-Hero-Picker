@@ -14,8 +14,6 @@ namespace :scrape do
         new_hero.update_attributes(options)
       else
         new_hero = Hero.new(name: hero, role_id: 4)
-        new_hero.name = hero
-        new_hero.role_id = 4
         new_hero.overall_win = hero_data[:overall_win] if hero_data[:overall_win]
         new_hero.matchups = hero_data[:matchups] if hero_data[:matchups]
         new_hero.pick_count = hero_data[:pick_count] if hero_data[:pick_count]

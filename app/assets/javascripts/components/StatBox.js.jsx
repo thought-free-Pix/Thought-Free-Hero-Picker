@@ -13,24 +13,29 @@ var d = [
     ],
 ];
 
-//Temporary random data generator for testing chart updating
-function randomData(){
+
+// Actual hero attribute data
+function getAttrData(hero){
+  // return hero attrs
+  var attrHash = AppStore.getHeroAttr(hero);
+
   return [
-    {axis:"Tankability",    value: Math.random().toFixed(2)},
-    {axis:"Crowd Control",  value: Math.random().toFixed(2)},
-    {axis:"Healing",        value: Math.random().toFixed(2)},
-    {axis:"Lane Presence",  value: Math.random().toFixed(2)},
-    {axis:"Damage",         value: Math.random().toFixed(2)},
-    {axis:"Pushing",        value: Math.random().toFixed(2)},
+    {axis:"Tankability",    value: attrHash["Tankability"]},
+    {axis:"Crowd Control",  value: attrHash["Crowd Control"]},
+    {axis:"Healing",        value: attrHash["Healing"]},
+    {axis:"Lane Presence",  value: attrHash["Lane Presence"]},
+    {axis:"Damage",         value: attrHash["Damage"]},
+    {axis:"Pushing",        value: attrHash["Pushing"]},
   ]
 }
 
 //Updates input data to radarchart on call
 function updateData(){
   while(d.length - 1 < AppStore.getAlliedTeam().length){
-    var randomVal = randomData();
-    d.push(randomVal);
-  } 
+    var lastHero = AppStore.getAlliedTeam()[AppStore.getAlliedTeam().length - 1];
+    var attrString = getAttrData(lastHero);
+    d.push(attrString);
+  }
   while(d.length - 1 > AppStore.getAlliedTeam().length){
     d.pop();
   }
