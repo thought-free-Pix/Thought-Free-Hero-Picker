@@ -68,8 +68,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Anub\'arak" => [
-       '{axis:"Tankability", value: 0.5},
+  "Anub\'arak" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -84,8 +84,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Azmodan" => [
-       '{axis:"Tankability", value: 0.5},
+  "Azmodan" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -100,8 +100,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Chen" => [
-       '{axis:"Tankability", value: 0.5},
+  "Chen" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -116,8 +116,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "E.T.C." => [
-       '{axis:"Tankability", value: 0.5},
+  "E.T.C." => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -132,8 +132,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Gazlowe" => [
-       '{axis:"Tankability", value: 0.5},
+  "Gazlowe" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -148,8 +148,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Jaina" => [
-       '{axis:"Tankability", value: 0.5},
+  "Jaina" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -164,8 +164,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Kael\'thas" => [
-       '{axis:"Tankability", value: 0.5},
+  "Kael\'thas" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -180,8 +180,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Leoric" => [
-       '{axis:"Tankability", value: 0.5},
+  "Leoric" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -196,8 +196,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Malfurion" => [
-       '{axis:"Tankability", value: 0.5},
+  "Malfurion" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -212,8 +212,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Murky" => [
-       '{axis:"Tankability", value: 0.5},
+  "Murky" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -228,8 +228,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Nova" => [
-       '{axis:"Tankability", value: 0.5},
+  "Nova" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -244,8 +244,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Rehgar" => [
-       '{axis:"Tankability", value: 0.5},
+  "Rehgar" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -260,8 +260,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Sonya" => [
-       '{axis:"Tankability", value: 0.5},
+  "Sonya" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -276,8 +276,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Sylvanas" => [
-       '{axis:"Tankability", value: 0.5},
+  "Sylvanas" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -292,8 +292,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "The Butcher" => [
-       '{axis:"Tankability", value: 0.5},
+  "The Butcher" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -308,8 +308,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Thrall" => [
-       '{axis:"Tankability", value: 0.5},
+  "Thrall" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -324,8 +324,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Tyrande" => [
-       '{axis:"Tankability", value: 0.5},
+  "Tyrande" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -340,8 +340,8 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Uther" => [
-       '{axis:"Tankability", value: 0.5},
+  "Uther" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -356,16 +356,16 @@ attr_hash = {
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
      ]',
-  "Zagara" => [
-       '{axis:"Tankability", value: 0.5},
+  "Zagara" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
        {axis:"Damage", value: 0.5},
        {axis:"Pushing", value: 0.5},
     ]',
-  "Zeratul" => [
-       '{axis:"Tankability", value: 0.5},
+  "Zeratul" => '[
+       {axis:"Tankability", value: 0.5},
        {axis:"Crowd Control", value: 0.5},
        {axis:"Healing", value: 0.5},
        {axis:"Lane Presence", value: 0.5},
@@ -373,3 +373,7 @@ attr_hash = {
        {axis:"Pushing", value: 0.5},
     ]',
   }
+
+attr_hash.each do |hero_name, attr|
+  Hero.find_by_name(hero_name).update_attribute(:attr, attr)
+end
