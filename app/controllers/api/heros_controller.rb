@@ -11,7 +11,7 @@ class Api::HerosController < ApplicationController
   end
 
   def index
-    @heros = Hero.all
+    @heros = Hero.all.order('name asc')
     render :json => @heros
   end
 

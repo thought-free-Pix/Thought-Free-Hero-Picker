@@ -13,26 +13,40 @@ var d = [
     ],
 ];
 
-//Temporary random data generator for testing chart updating
-function randomData(){
+// list of hero names in order that have their attr stat in 'd'
+var dHeroNameList = [];
+
+// Actual hero attribute data
+function getAttrData(hero){
+  // return hero attrs
+  var attrHash = AppStore.getHeroAttr(hero);
+
   return [
-    {axis:"Tankability",    value: Math.random().toFixed(2)},
-    {axis:"Crowd Control",  value: Math.random().toFixed(2)},
-    {axis:"Healing",        value: Math.random().toFixed(2)},
-    {axis:"Lane Presence",  value: Math.random().toFixed(2)},
-    {axis:"Damage",         value: Math.random().toFixed(2)},
-    {axis:"Pushing",        value: Math.random().toFixed(2)},
+    {axis:"Tankability",    value: attrHash["Tankability"]},
+    {axis:"Crowd Control",  value: attrHash["Crowd Control"]},
+    {axis:"Healing",        value: attrHash["Healing"]},
+    {axis:"Lane Presence",  value: attrHash["Lane Presence"]},
+    {axis:"Damage",         value: attrHash["Damage"]},
+    {axis:"Pushing",        value: attrHash["Pushing"]},
   ]
 }
 
 //Updates input data to radarchart on call
 function updateData(){
   while(d.length - 1 < AppStore.getAlliedTeam().length){
-    var randomVal = randomData();
-    d.push(randomVal);
-  } 
+    // adds hero's attr to 'd' and adds hero name to 'dHeroNameList'
+    var lastHero = AppStore.getAlliedTeam()[AppStore.getAlliedTeam().length - 1];
+    var attrString = getAttrData(lastHero);
+    dHeroNameList.push(lastHero);
+    d.push(attrString);
+  }
   while(d.length - 1 > AppStore.getAlliedTeam().length){
-    d.pop();
+    // removes hero that was removed from 'Store' from 'd' and 'dHeroNameList'
+    var removedHero = dHeroNameList.filter(function(i) {
+                        return AppStore.getAlliedTeam().indexOf(i) < 0;
+                      });
+    d.splice(dHeroNameList.indexOf(removedHero[0]) + 1, 1);
+    dHeroNameList.splice(dHeroNameList.indexOf(removedHero[0]), 1);
   }
 }
 

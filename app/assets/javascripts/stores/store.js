@@ -157,6 +157,11 @@ var AppStore = assign(EventEmitter.prototype, {
     return _heroArray;
   },
 
+  getHeroAttr: function(heroName) {
+    var hero = _heroData[heroName]
+    return hero.attr;
+  },
+
   getSuggestions: function(){
     _updateScores(_heroArray);
     var output = _generateSuggestions(_heroArray).filter(_alreadySelected).filter(_checkRole);
