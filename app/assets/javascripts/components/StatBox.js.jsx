@@ -13,6 +13,8 @@ var d = [
     ],
 ];
 
+// list of hero names in order that have their attr stat in 'd'
+var dHeroNameList = [];
 
 // Actual hero attribute data
 function getAttrData(hero){
@@ -32,12 +34,19 @@ function getAttrData(hero){
 //Updates input data to radarchart on call
 function updateData(){
   while(d.length - 1 < AppStore.getAlliedTeam().length){
+    // adds hero's attr to 'd' and adds hero name to 'dHeroNameList'
     var lastHero = AppStore.getAlliedTeam()[AppStore.getAlliedTeam().length - 1];
     var attrString = getAttrData(lastHero);
+    dHeroNameList.push(lastHero);
     d.push(attrString);
   }
   while(d.length - 1 > AppStore.getAlliedTeam().length){
-    d.pop();
+    // removes hero that was removed from 'Store' from 'd' and 'dHeroNameList'
+    var removedHero = dHeroNameList.filter(function(i) {
+                        return AppStore.getAlliedTeam().indexOf(i) < 0;
+                      });
+    d.splice(dHeroNameList.indexOf(removedHero[0]) + 1, 1);
+    dHeroNameList.splice(dHeroNameList.indexOf(removedHero[0]), 1);
   }
 }
 

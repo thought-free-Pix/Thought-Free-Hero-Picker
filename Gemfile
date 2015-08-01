@@ -50,3 +50,5 @@ group :development, :test do
   gem 'pry-rails'
   gem 'quiet_assets'
 end
+
+ruby "2.2.0"

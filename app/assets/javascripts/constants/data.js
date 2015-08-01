@@ -1,4 +1,4 @@
-var dataset = [  
+var dataset = [
   {
     "id":1,
     "name":"Abathur",
@@ -216,14 +216,14 @@ var dataset = [
       "Zeratul":"49.7 %"
     },
     "created_at":"2015-07-31T09:45:56.587Z",
-    "updated_at":"2015-07-31T10:45:52.194Z",
+    "updated_at":"2015-08-01T00:58:20.760Z",
     "pick_count":"17284",
     "attr":{
-      "Tankability":0.1,
+      "Tankability":0.8,
       "Crowd Control":0.1,
-      "Healing":0.3,
+      "Healing":0.1,
       "Lane Presence":0.8,
-      "Damage":0.5,
+      "Damage":0.4,
       "Pushing":0.8
     }
   },
@@ -273,15 +273,15 @@ var dataset = [
       "Zeratul":"43.7 %"
     },
     "created_at":"2015-07-31T09:45:57.056Z",
-    "updated_at":"2015-07-31T10:45:52.214Z",
+    "updated_at":"2015-08-01T00:58:20.800Z",
     "pick_count":"15037",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.5,
+      "Healing":0.6,
+      "Lane Presence":0.4,
+      "Damage":0.3,
+      "Pushing":0.3
     }
   },
   {
@@ -330,15 +330,15 @@ var dataset = [
       "Zeratul":"42.8 %"
     },
     "created_at":"2015-07-31T09:45:57.527Z",
-    "updated_at":"2015-07-31T10:45:52.235Z",
+    "updated_at":"2015-08-01T00:58:20.818Z",
     "pick_count":"4848",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.9,
+      "Crowd Control":0.3,
+      "Healing":0.1,
+      "Lane Presence":0.5,
+      "Damage":0.3,
+      "Pushing":0.2
     }
   },
   {
@@ -387,15 +387,15 @@ var dataset = [
       "Zeratul":"43.9 %"
     },
     "created_at":"2015-07-31T09:45:58.095Z",
-    "updated_at":"2015-07-31T10:45:52.294Z",
+    "updated_at":"2015-08-01T00:58:20.843Z",
     "pick_count":"15857",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
+      "Tankability":0.6,
+      "Crowd Control":0.4,
+      "Healing":0.0,
+      "Lane Presence":0.3,
       "Damage":0.5,
-      "Pushing":0.8
+      "Pushing":0.2
     }
   },
   {
@@ -444,15 +444,15 @@ var dataset = [
       "Zeratul":"42.0 %"
     },
     "created_at":"2015-07-31T09:45:58.561Z",
-    "updated_at":"2015-07-31T10:45:52.315Z",
+    "updated_at":"2015-08-01T00:58:20.862Z",
     "pick_count":"29808",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
+      "Tankability":0.9,
+      "Crowd Control":0.6,
       "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Lane Presence":0.6,
+      "Damage":0.4,
+      "Pushing":0.3
     }
   },
   {
@@ -501,15 +501,15 @@ var dataset = [
       "Zeratul":"44.1 %"
     },
     "created_at":"2015-07-31T09:45:59.023Z",
-    "updated_at":"2015-07-31T10:45:52.337Z",
+    "updated_at":"2015-08-01T00:58:20.889Z",
     "pick_count":"25667",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.3,
+      "Crowd Control":0.2,
+      "Healing":0.0,
+      "Lane Presence":0.6,
+      "Damage":0.7,
+      "Pushing":0.5
     }
   },
   {
@@ -558,13 +558,13 @@ var dataset = [
       "Zeratul":"46.7 %"
     },
     "created_at":"2015-07-31T09:45:59.481Z",
-    "updated_at":"2015-07-31T10:45:52.360Z",
+    "updated_at":"2015-08-01T00:58:20.909Z",
     "pick_count":"23769",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
+      "Tankability":0.3,
+      "Crowd Control":0.4,
+      "Healing":0.0,
+      "Lane Presence":0.6,
       "Damage":0.5,
       "Pushing":0.8
     }
@@ -615,15 +615,15 @@ var dataset = [
       "Zeratul":"46.1 %"
     },
     "created_at":"2015-07-31T09:46:00.079Z",
-    "updated_at":"2015-07-31T10:45:52.382Z",
+    "updated_at":"2015-08-01T00:58:20.932Z",
     "pick_count":"39272",
     "attr":{
-      "Tankability":0.1,
+      "Tankability":0.6,
       "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Healing":0.0,
+      "Lane Presence":0.3,
+      "Damage":0.7,
+      "Pushing":0.2
     }
   },
   {
@@ -672,15 +672,15 @@ var dataset = [
       "Zeratul":"53.0 %"
     },
     "created_at":"2015-07-31T09:46:00.531Z",
-    "updated_at":"2015-07-31T10:45:52.413Z",
+    "updated_at":"2015-08-01T00:58:20.956Z",
     "pick_count":"135425",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.2,
+      "Crowd Control":0.5,
+      "Healing":0.0,
+      "Lane Presence":0.6,
+      "Damage":0.8,
+      "Pushing":0.4
     }
   },
   {
@@ -729,15 +729,15 @@ var dataset = [
       "Zeratul":"51.3 %"
     },
     "created_at":"2015-07-31T09:46:00.987Z",
-    "updated_at":"2015-07-31T10:45:52.444Z",
+    "updated_at":"2015-08-01T00:58:20.976Z",
     "pick_count":"82663",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.9,
+      "Crowd Control":0.7,
+      "Healing":0.0,
+      "Lane Presence":0.6,
+      "Damage":0.2,
+      "Pushing":0.2
     }
   },
   {
@@ -786,15 +786,15 @@ var dataset = [
       "Zeratul":"48.8 %"
     },
     "created_at":"2015-07-31T09:46:01.453Z",
-    "updated_at":"2015-07-31T10:45:52.472Z",
+    "updated_at":"2015-08-01T00:58:20.999Z",
     "pick_count":"125705",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.2,
+      "Crowd Control":0.4,
+      "Healing":0.0,
+      "Lane Presence":0.6,
+      "Damage":0.8,
+      "Pushing":0.4
     }
   },
   {
@@ -843,15 +843,15 @@ var dataset = [
       "Zeratul":"45.1 %"
     },
     "created_at":"2015-07-31T09:46:01.999Z",
-    "updated_at":"2015-07-31T10:45:52.505Z",
+    "updated_at":"2015-08-01T00:58:21.023Z",
     "pick_count":"12435",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.6,
+      "Healing":0.2,
+      "Lane Presence":0.3,
+      "Damage":0.6,
+      "Pushing":0.4
     }
   },
   {
@@ -900,15 +900,15 @@ var dataset = [
       "Zeratul":"53.7 %"
     },
     "created_at":"2015-07-31T09:46:02.479Z",
-    "updated_at":"2015-07-31T10:45:52.528Z",
+    "updated_at":"2015-08-01T00:58:21.042Z",
     "pick_count":"58766",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
+      "Tankability":0.7,
+      "Crowd Control":0.7,
+      "Healing":0.2,
+      "Lane Presence":0.7,
       "Damage":0.5,
-      "Pushing":0.8
+      "Pushing":0.4
     }
   },
   {
@@ -957,15 +957,15 @@ var dataset = [
       "Zeratul":"49.5 %"
     },
     "created_at":"2015-07-31T09:46:02.968Z",
-    "updated_at":"2015-07-31T10:45:52.558Z",
+    "updated_at":"2015-08-01T00:58:21.067Z",
     "pick_count":"83301",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.2,
+      "Healing":0.5,
+      "Lane Presence":0.5,
+      "Damage":0.2,
+      "Pushing":0.1
     }
   },
   {
@@ -1014,15 +1014,15 @@ var dataset = [
       "Zeratul":"48.3 %"
     },
     "created_at":"2015-07-31T09:46:03.433Z",
-    "updated_at":"2015-07-31T10:45:52.587Z",
+    "updated_at":"2015-08-01T00:58:21.125Z",
     "pick_count":"108632",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.4,
+      "Crowd Control":0.6,
+      "Healing":0.6,
+      "Lane Presence":0.4,
+      "Damage":0.3,
+      "Pushing":0.1
     }
   },
   {
@@ -1071,15 +1071,15 @@ var dataset = [
       "Zeratul":"45.9 %"
     },
     "created_at":"2015-07-31T09:46:04.011Z",
-    "updated_at":"2015-07-31T10:45:52.610Z",
+    "updated_at":"2015-08-01T00:58:21.146Z",
     "pick_count":"83933",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.9,
+      "Crowd Control":0.6,
+      "Healing":0.4,
+      "Lane Presence":0.5,
+      "Damage":0.4,
+      "Pushing":0.4
     }
   },
   {
@@ -1128,15 +1128,15 @@ var dataset = [
       "Zeratul":"53.4 %"
     },
     "created_at":"2015-07-31T09:46:04.468Z",
-    "updated_at":"2015-07-31T10:45:52.632Z",
+    "updated_at":"2015-08-01T00:58:21.168Z",
     "pick_count":"20904",
     "attr":{
       "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
+      "Crowd Control":0.3,
+      "Healing":0.1,
+      "Lane Presence":0.6,
       "Damage":0.5,
-      "Pushing":0.8
+      "Pushing":0.5
     }
   },
   {
@@ -1185,15 +1185,15 @@ var dataset = [
       "Zeratul":"53.4 %"
     },
     "created_at":"2015-07-31T09:46:04.946Z",
-    "updated_at":"2015-07-31T10:45:52.652Z",
+    "updated_at":"2015-08-01T00:58:21.190Z",
     "pick_count":"53548",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.4,
+      "Crowd Control":0.5,
+      "Healing":0.0,
+      "Lane Presence":0.6,
+      "Damage":0.6,
+      "Pushing":0.7
     }
   },
   {
@@ -1242,15 +1242,15 @@ var dataset = [
       "Zeratul":"46.6 %"
     },
     "created_at":"2015-07-31T09:46:05.470Z",
-    "updated_at":"2015-07-31T10:45:52.681Z",
+    "updated_at":"2015-08-01T00:58:21.215Z",
     "pick_count":"51674",
     "attr":{
-      "Tankability":0.1,
+      "Tankability":0.2,
       "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Healing":0.0,
+      "Lane Presence":0.1,
+      "Damage":0.9,
+      "Pushing":0.1
     }
   },
   {
@@ -1299,15 +1299,15 @@ var dataset = [
       "Zeratul":"46.7 %"
     },
     "created_at":"2015-07-31T09:46:05.936Z",
-    "updated_at":"2015-07-31T10:45:52.702Z",
+    "updated_at":"2015-08-01T00:58:21.237Z",
     "pick_count":"43102",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
+      "Tankability":0.5,
+      "Crowd Control":0.3,
+      "Healing":0.2,
+      "Lane Presence":0.7,
       "Damage":0.5,
-      "Pushing":0.8
+      "Pushing":0.2
     }
   },
   {
@@ -1356,15 +1356,15 @@ var dataset = [
       "Zeratul":"46.0 %"
     },
     "created_at":"2015-07-31T09:46:06.391Z",
-    "updated_at":"2015-07-31T10:45:52.723Z",
+    "updated_at":"2015-08-01T00:58:21.262Z",
     "pick_count":"62229",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.2,
+      "Healing":0.7,
+      "Lane Presence":0.3,
+      "Damage":0.3,
+      "Pushing":0.1
     }
   },
   {
@@ -1413,15 +1413,15 @@ var dataset = [
       "Zeratul":"40.7 %"
     },
     "created_at":"2015-07-31T09:46:06.853Z",
-    "updated_at":"2015-07-31T10:45:52.746Z",
+    "updated_at":"2015-08-01T00:58:21.284Z",
     "pick_count":"9735",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.6,
+      "Crowd Control":0.3,
+      "Healing":0.0,
+      "Lane Presence":0.5,
+      "Damage":0.6,
+      "Pushing":0.6
     }
   },
   {
@@ -1470,15 +1470,15 @@ var dataset = [
       "Zeratul":"46.0 %"
     },
     "created_at":"2015-07-31T09:46:07.337Z",
-    "updated_at":"2015-07-31T10:45:52.773Z",
+    "updated_at":"2015-08-01T00:58:21.305Z",
     "pick_count":"17830",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.6,
+      "Crowd Control":0.4,
+      "Healing":0.1,
+      "Lane Presence":0.4,
+      "Damage":0.8,
+      "Pushing":0.2
     }
   },
   {
@@ -1527,15 +1527,15 @@ var dataset = [
       "Zeratul":"40.1 %"
     },
     "created_at":"2015-07-31T09:46:07.810Z",
-    "updated_at":"2015-07-31T10:45:52.794Z",
+    "updated_at":"2015-08-01T00:58:21.327Z",
     "pick_count":"11653",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
+      "Tankability":0.7,
+      "Crowd Control":0.5,
       "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Lane Presence":0.6,
+      "Damage":0.4,
+      "Pushing":0.3
     }
   },
   {
@@ -1584,14 +1584,14 @@ var dataset = [
       "Zeratul":"45.5 %"
     },
     "created_at":"2015-07-31T09:46:08.342Z",
-    "updated_at":"2015-07-31T10:45:52.823Z",
+    "updated_at":"2015-08-01T00:58:21.348Z",
     "pick_count":"76591",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
+      "Tankability":0.3,
+      "Crowd Control":0.3,
+      "Healing":0.1,
+      "Lane Presence":0.6,
+      "Damage":0.6,
       "Pushing":0.8
     }
   },
@@ -1641,15 +1641,15 @@ var dataset = [
       "Zeratul":"42.4 %"
     },
     "created_at":"2015-07-31T09:46:08.856Z",
-    "updated_at":"2015-07-31T10:45:52.843Z",
+    "updated_at":"2015-08-01T00:58:21.374Z",
     "pick_count":"21750",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.2,
+      "Healing":0.5,
+      "Lane Presence":0.4,
+      "Damage":0.3,
+      "Pushing":0.3
     }
   },
   {
@@ -1698,15 +1698,15 @@ var dataset = [
       "Zeratul":"51.2 %"
     },
     "created_at":"2015-07-31T09:46:09.314Z",
-    "updated_at":"2015-07-31T10:45:52.863Z",
+    "updated_at":"2015-08-01T00:58:21.397Z",
     "pick_count":"46652",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.6,
+      "Crowd Control":0.3,
+      "Healing":0.2,
+      "Lane Presence":0.5,
+      "Damage":0.8,
+      "Pushing":0.3
     }
   },
   {
@@ -1755,15 +1755,15 @@ var dataset = [
       "Zeratul":"55.2 %"
     },
     "created_at":"2015-07-31T09:46:09.789Z",
-    "updated_at":"2015-07-31T10:45:52.883Z",
+    "updated_at":"2015-08-01T00:58:21.418Z",
     "pick_count":"5562",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
+      "Tankability":0.5,
+      "Crowd Control":0.6,
+      "Healing":0.1,
       "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Damage":0.4,
+      "Pushing":0.5
     }
   },
   {
@@ -1812,15 +1812,15 @@ var dataset = [
       "Zeratul":"49.3 %"
     },
     "created_at":"2015-07-31T09:46:10.310Z",
-    "updated_at":"2015-07-31T10:45:52.954Z",
+    "updated_at":"2015-08-01T00:58:21.437Z",
     "pick_count":"16923",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.5,
+      "Crowd Control":0.4,
+      "Healing":0.2,
+      "Lane Presence":0.5,
+      "Damage":0.6,
+      "Pushing":0.2
     }
   },
   {
@@ -1869,15 +1869,15 @@ var dataset = [
       "Zeratul":"43.2 %"
     },
     "created_at":"2015-07-31T09:46:10.773Z",
-    "updated_at":"2015-07-31T10:45:52.976Z",
+    "updated_at":"2015-08-01T00:58:21.456Z",
     "pick_count":"38353",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.6,
+      "Crowd Control":0.2,
+      "Healing":0.1,
+      "Lane Presence":0.6,
+      "Damage":0.7,
+      "Pushing":0.4
     }
   },
   {
@@ -1926,15 +1926,15 @@ var dataset = [
       "Zeratul":"46.3 %"
     },
     "created_at":"2015-07-31T09:46:11.802Z",
-    "updated_at":"2015-07-31T10:45:53.021Z",
+    "updated_at":"2015-08-01T00:58:21.504Z",
     "pick_count":"31761",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.6,
+      "Crowd Control":0.5,
+      "Healing":0.0,
+      "Lane Presence":0.4,
+      "Damage":0.4,
+      "Pushing":0.2
     }
   },
   {
@@ -1983,15 +1983,15 @@ var dataset = [
       "Zeratul":"44.1 %"
     },
     "created_at":"2015-07-31T09:46:11.245Z",
-    "updated_at":"2015-07-31T10:45:52.999Z",
+    "updated_at":"2015-08-01T00:58:21.479Z",
     "pick_count":"19220",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.2,
+      "Crowd Control":0.5,
+      "Healing":0.6,
+      "Lane Presence":0.4,
+      "Damage":0.6,
+      "Pushing":0.1
     }
   },
   {
@@ -2040,15 +2040,15 @@ var dataset = [
       "Zeratul":"50.1 %"
     },
     "created_at":"2015-07-31T09:46:12.427Z",
-    "updated_at":"2015-07-31T10:45:53.043Z",
+    "updated_at":"2015-08-01T00:58:21.533Z",
     "pick_count":"73707",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.7,
+      "Crowd Control":0.6,
+      "Healing":0.7,
+      "Lane Presence":0.6,
+      "Damage":0.3,
+      "Pushing":0.2
     }
   },
   {
@@ -2097,15 +2097,15 @@ var dataset = [
       "Zeratul":"45.4 %"
     },
     "created_at":"2015-07-31T09:46:12.885Z",
-    "updated_at":"2015-07-31T10:45:53.066Z",
+    "updated_at":"2015-08-01T00:58:21.552Z",
     "pick_count":"108485",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.3,
+      "Crowd Control":0.5,
+      "Healing":0.0,
+      "Lane Presence":0.7,
+      "Damage":0.6,
+      "Pushing":0.6
     }
   },
   {
@@ -2154,12 +2154,12 @@ var dataset = [
       "Zeratul":"49.5 %"
     },
     "created_at":"2015-07-31T09:46:13.530Z",
-    "updated_at":"2015-07-31T10:45:53.089Z",
+    "updated_at":"2015-08-01T00:58:21.571Z",
     "pick_count":"56312",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
+      "Tankability":0.3,
+      "Crowd Control":0.5,
+      "Healing":0.0,
       "Lane Presence":0.8,
       "Damage":0.5,
       "Pushing":0.8
@@ -2211,15 +2211,15 @@ var dataset = [
       "Zagara":"50.5 %"
     },
     "created_at":"2015-07-31T09:46:13.994Z",
-    "updated_at":"2015-07-31T10:45:53.112Z",
+    "updated_at":"2015-08-01T00:58:21.593Z",
     "pick_count":"89714",
     "attr":{
-      "Tankability":0.1,
-      "Crowd Control":0.1,
-      "Healing":0.3,
-      "Lane Presence":0.8,
-      "Damage":0.5,
-      "Pushing":0.8
+      "Tankability":0.4,
+      "Crowd Control":0.5,
+      "Healing":0.0,
+      "Lane Presence":0.5,
+      "Damage":0.8,
+      "Pushing":0.2
     }
   }
 ]
