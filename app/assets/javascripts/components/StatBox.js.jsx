@@ -1,3 +1,6 @@
+// list of hero names in order that have their attr stat in 'd'
+var dHeroNameList = [];
+
 //Legend titles
 var LegendOptions = AppStore.getAlliedTeam();
 
@@ -13,8 +16,6 @@ var d = [
     ],
 ];
 
-// list of hero names in order that have their attr stat in 'd'
-var dHeroNameList = [];
 
 // Actual hero attribute data
 function getAttrData(hero){

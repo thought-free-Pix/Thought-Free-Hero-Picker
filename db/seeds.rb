@@ -29,6 +29,7 @@ roles_hash = {
   "Johanna" => 2,
   "Kael\'thas" => 1,
   "Kerrigan" => 1,
+  "Kharazim" => 3,
   "Leoric" => 2,
   "Li Li" => 3,
   "Malfurion" => 3,
@@ -180,6 +181,14 @@ attr_hash = {
        "Damage" => 0.6,
        "Pushing" => 0.4,
      },
+  "Kharazim" => {
+      "Tankability" => 0.5,
+      "Crowd Control" => 0.2,
+      "Healing" => 0.6,
+      "Lane Presence" => 0.2,
+      "Damage" => 0.4,
+      "Pushing" => 0.1,
+    },
   "Leoric" => {
        "Tankability" => 0.7,
        "Crowd Control" => 0.7,
