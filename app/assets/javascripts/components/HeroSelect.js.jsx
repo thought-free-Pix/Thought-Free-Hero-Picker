@@ -50,9 +50,11 @@ var HeroSelect = React.createClass({
           <div className="heroNameSelection">
             { this.state.currentSelection }
           </div>
-          <button onClick={ this.toAlly }>Ally</button>
-          <img src={imgPath}/>
-          <button onClick={ this.toEnemy }>Enemy</button>
+          <div className="selectorButtons">
+            <button className="leftButton" onClick={ this.toAlly }>Ally</button>
+            <img src={imgPath}/>
+            <button onClick={ this.toEnemy }>Enemy</button>
+          </div>
         </div>
 
         <ul id="categories" className="clr">
