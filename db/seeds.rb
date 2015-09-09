@@ -39,6 +39,7 @@ roles_hash = {
   "Nova" => 1,
   "Raynor" => 1,
   "Rehgar" => 3,
+  "Rexxar" => 1,
   "Sgt. Hammer" => 1,
   "Sonya" => 2,
   "Stitches" => 2,
@@ -260,6 +261,14 @@ attr_hash = {
        "Lane Presence" => 0.3,
        "Damage" => 0.3,
        "Pushing" => 0.1,
+     },
+  "Rexxar" => {
+       "Tankability" => 0.5,
+       "Crowd Control" => 0.2,
+       "Healing" => 0.1,
+       "Lane Presence" => 0.3,
+       "Damage" => 0.5,
+       "Pushing" => 0.3,
      },
   "Sgt. Hammer" => {
        "Tankability" => 0.6,
