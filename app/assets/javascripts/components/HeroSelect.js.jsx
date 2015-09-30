@@ -1,6 +1,3 @@
-
-
-
 var HeroSelect = React.createClass({
   clickHandler: function(hero){
     this.setState({currentSelection: hero.name});
